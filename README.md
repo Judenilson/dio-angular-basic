@@ -8,3 +8,27 @@ Basic Course of Angular by DIO
     - To achieve a similar effect for dynamically inserted scripts use async="false" instead. Scripts with the defer attribute will execute in the order in which they appear in the document.
 - all Component created in Shadow DOM has it own indepentdent style, that is, it does not influence the rest of the html.
 - to create a custom element, you must enter two hyphenated words.
+
+## Typescrypt
+npm init -y
+npm install typescript -D (-D create a dev package)
+
+npx tsc "archive path" to transform .ts to .js
+
+## Creating Typescript Config
+npx tsc ---init
+
+## Editing tsconfig.json
+"rootDir": "./src",
+"outDir": "./build",
+"experimentalDecorators": true, 
+
+## Config package.json
+  "scripts": {
+    "start":"npx tsc && node build/index.js",
+And now, run your project with command: npm run start
+
+## Install TS NODE DEV -- This create a local server to run Typescript
+npm install ts-node-dev
+in package.json
+"start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
