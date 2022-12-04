@@ -43,5 +43,13 @@ in package.json
   - Icones (*optional)
   - editorConfig, Prettier, eslint (*optionals)
 
-- Angular
+- Angular Install
+  - Windows ExecutionPolicies don't to be restricted
+      - Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
   - npm install -g @angular/cli@14.1.2
+
+- Angular new Project
+  - ng new "project name"
+  - routing? yes
+  - CSS
+  
