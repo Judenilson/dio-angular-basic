@@ -1,0 +1,17 @@
+<hello name="{{ name }}"></hello>
+<menu-component></menu-component>
+<p>Start editing to see some magic happen :)</p>
+<h1>Hello World</h1>
+
+<!-- data biding = associação de dados -->
+<!-- Interpolação -->
+<my-button label="{{ buttonLabel }}"></my-button>
+<my-button label="Notícia"></my-button>
+
+<!-- Property Binding -->
+<!-- Essa é a maneria que a documentação do angular pede para usar como padrão -->
+<my-button [label]="buttonSecond"></my-button>
+<my-button [label]="'CARRINHO'"></my-button>
+
+<!-- two way data biding -->
+<app-entry-data></app-entry-data>
