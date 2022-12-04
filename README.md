@@ -41,7 +41,7 @@ in package.json
   - Auto Rename Tag
   - Theme (*optional)
   - Icones (*optional)
-  - editorConfig, Prettier, eslint
+  - editorConfig, Prettier, eslint (*optionals)
 
 - Angular
   - npm install -g @angular/cli@14.1.2
