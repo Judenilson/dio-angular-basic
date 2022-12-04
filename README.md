@@ -32,3 +32,16 @@ And now, run your project with command: npm run start
 npm install ts-node-dev
 in package.json
 "start:dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+
+## Angular Requisites
+- Node and NPM (nodejs.org)
+- Visual Studio Code (www.code.visualstudio.com/)
+  - Angular Language Service
+  - Auto Close Tag
+  - Auto Rename Tag
+  - Theme (*optional)
+  - Icones (*optional)
+  - editorConfig, Prettier, eslint
+
+- Angular
+  - npm install -g @angular/cli@14.1.2
