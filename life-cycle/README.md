@@ -25,3 +25,36 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+# Life Cycle Hooks
+
+1. ngOnInit()
+> Executed when component is start and mounted. 
+
+2. ngOnChanges()
+> Executed when property value is changed via input().  
+
+3. ngDoCheck()
+> Executes when component properties are verify. 
+## Check Events
+
+
+3.1 ngAfterContentInit()
+> Executed when Angular realize any content projection in its components.
+
+
+3.2 ngAfterConttentChecked()
+> Executed always the content of the component's content is checked by Angular's change detection engine.
+
+
+3.3 ngAfterViewInit()
+> Executed after a component is start totaly .
+
+
+3.4 ngAfterViewChecked()
+> Executed when a component visualization is verify by Angular's change detection algorithm.
+
+## Destroy Event
+4 ngOnDestroy()
+> Executed after destroy a component
