@@ -1,4 +1,4 @@
-# dio-angular-basic
+# Dio ANGULAR
 Basic Course of Angular by DIO
 
 - defer
@@ -52,4 +52,57 @@ in package.json
   - ng new "project name"
   - routing? yes
   - CSS
+
+- Angular new Componente
+  - ng g c "component name"
+
+- Angular new Module
+  - ng g m "module name"
   
+---
+# Life Cycle Hooks
+
+1. ngOnInit()
+> Executed when component is start and mounted. 
+
+2. ngOnChanges()
+> Executed when property value is changed via input().  
+
+3. ngDoCheck()
+> Executes when component properties are verify. 
+
+## Check Events
+3.1 ngAfterContentInit()
+> Executed when Angular realize any content projection in its components.
+
+
+3.2 ngAfterConttentChecked()
+> Executed always the content of the component's content is checked by Angular's change detection engine.
+
+
+3.3 ngAfterViewInit()
+> Executed after a component is start totaly .
+
+
+3.4 ngAfterViewChecked()
+> Executed when a component visualization is verify by Angular's change detection algorithm.
+
+## Destroy Event
+4 ngOnDestroy()
+> Executed after destroy a component
+
+---
+# Directives
+Directives are how angular handles and changes the DOM dynamically
+
+## Attribute Directives
+Change the appearance or behavior of an element, component, or other directive
+- NgClass - Adds or removes a set of CSS classes
+- NgStyle - Adds or removes a set of styles to the HTML
+- NgModel - Add bidirectional data binding to a form element
+
+## Structural Directives
+Shape or reshape the structure of the DOM, adding or removing elements on the screen
+- NgIf - Conditional that checks whether the model should be viewed or not
+- NgFor - Repeats an element for each item in a list
+- NgSwitch - Used to switch between alternative behaviors
