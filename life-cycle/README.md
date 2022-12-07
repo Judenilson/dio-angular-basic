@@ -59,17 +59,3 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 4 ngOnDestroy()
 > Executed after destroy a component
 
-# Directives
-Directives are how angular handles and changes the DOM dynamically
-
-## Attribute Directives
-Change the appearance or behavior of an element, component, or other directive
-- NgClass - Adds or removes a set of CSS classes
-- NgStyle - Adds or removes a set of styles to the HTML
-- NgModel - Add bidirectional data binding to a form element
-
-## Structural Directives
-Shape or reshape the structure of the DOM, adding or removing elements on the screen
-- NgIf - Conditional that checks whether the model should be viewed or not
-- NgFor - Repeats an element for each item in a list
-- NgSwitch - Used to switch between alternative behaviors
