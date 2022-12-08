@@ -58,6 +58,9 @@ in package.json
 
 - Angular new Module
   - ng g m "module name"
+
+- Angular Publishing to GitHub
+  - ng build --output-path docs
   
 ---
 # Life Cycle Hooks
